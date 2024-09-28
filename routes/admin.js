@@ -2,7 +2,7 @@ const Router = require('express')
 
 const adminRouter = Router()
 
-app.use(adminMiddleware)
+// app.use(adminMiddleware)
 
 adminRouter.post('/login', (req, res) => {
     res.json({ message: "login endpoint" })
